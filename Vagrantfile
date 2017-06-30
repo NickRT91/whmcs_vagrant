@@ -49,6 +49,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder "/home/darko/DEVTECH/DudaMobile/Dudamobile.WHMCS.Provisioning/servers/dudamobile", "/var/www/html/whmcs/modules/servers/dudamobile", create: true , type: "nfs" 
 
+  config.vm.synced_folder "/home/darko/DEVTECH/DudaMobile/Dudamobile.WHMCS.Provisioning/tests/", "/home/ubuntu/dudamobile/tests/", create: true , type: "nfs" 
+
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
