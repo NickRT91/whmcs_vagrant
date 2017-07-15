@@ -65,7 +65,7 @@ sudo systemctl restart php7.0-fpm.service
 # Download WHMCS installation
 cd /var/www/html/
 
-wget https://dl.dropboxusercontent.com/s/gwsn5f4n34kiqg0/whmcs.tar.gz
+wget https://www.wrekin.net/dl/whmcs.tar.gz
 
 # Extract it
 tar -xzf whmcs.tar.gz
@@ -100,4 +100,4 @@ echo "All is done, use this box to develop WHMCS modules. Add WHMCS files and re
 
 echo "Read more about installing WHMCS here: http://docs.whmcs.com/Installing_WHMCS"
 
-echo "Author Darko Demic. Have a good day."
+echo "Author Nick. Have a good day."
